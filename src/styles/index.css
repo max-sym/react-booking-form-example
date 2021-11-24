@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css');
+@import '~flatpickr/dist/themes/dark.css';
+
+html, body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.font-title {
+	font-family: "Montserrat", sans-serif;
+}
+
+.font-title-2 {
+	font-family: 'Fondamento', cursive;
+}
+
+.flatpickr-day:hover, .flatpickr-day.selected:hover {
+	background: rgb(116, 45, 231);
+	border: transparent;
+}
+
+.flatpickr-day.selected {
+	background: rgb(116, 45, 231);
+	border: transparent;
+}
